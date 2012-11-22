@@ -1,5 +1,6 @@
 CyanogenMod
 ===========
+(With androidarmv6 hacks for legacy devices)
 
 Submitting Patches
 ------------------
