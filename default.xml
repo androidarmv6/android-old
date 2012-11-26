@@ -160,7 +160,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+<!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -220,7 +220,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+<!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" /> -->
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -228,7 +228,7 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+<!-- <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" /> -->
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
@@ -274,4 +274,11 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" name="CyanogenMod/android" />
+
+   <!-- START: GenetICS repos -->
+  <project path="frameworks/base" name="GenetICS/frameworks_base" remote="github" revision="ics-plus" />
+  <project path="packages/apps/CMFileManager" name="GenetICS/packages_apps_CMFileManager" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Settings" name="GenetICS/packages_apps_Settings" remote="github" revision="ics-plus" />
+  <project path="packages/apps/Trebuchet" name="GenetICS/packages_apps_Trebuchet" remote="github" revision="ics-plus" />
+   <!-- END: GenetICS repos -->
 </manifest>
