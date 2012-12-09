@@ -280,5 +280,6 @@
   <project path="packages/apps/CMFileManager" name="GenetICS/packages_apps_CMFileManager" remote="github" revision="ics-plus" />
   <project path="packages/apps/Settings" name="GenetICS/packages_apps_Settings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Trebuchet" name="GenetICS/packages_apps_Trebuchet" remote="github" revision="ics-plus" />
+  <project path="vendor/google" name="GenetICS/vendor_google" remote="github" revision="ics" />
    <!-- END: GenetICS repos -->
 </manifest>
