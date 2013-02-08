@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="server.cas-online.nl:8181" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="androidarmv6/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -113,7 +113,7 @@
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" />
   <project path="external/libmtp" name="CyanogenMod/android_external_libmtp" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
+  <project path="external/libncurses" name="androidarmv6/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
@@ -196,7 +196,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
@@ -204,7 +204,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="androidarmv6/android_frameworks_native" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -224,7 +224,8 @@
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="androidarmv6/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
