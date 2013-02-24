@@ -279,11 +279,11 @@
   <project path="frameworks/base" name="GenetICS/frameworks_base" remote="github" revision="ics-plus" />
   <project path="hardware/msm7k" name="GenetICS/hardware_msm7k" remote="github" revision="ics-plus" />
   <project path="packages/apps/CMFileManager" name="GenetICS/packages_apps_CMFileManager" remote="github" revision="ics-plus" />
-  <project path="packages/apps/HwaSettings" name="GenetICS/packages_apps_HwaSettings" remote="github" revision="ics" />
+  <project path="packages/apps/HwaSettings" name="GenetICS/packages_apps_HwaSettings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Settings" name="GenetICS/packages_apps_Settings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Trebuchet" name="GenetICS/packages_apps_Trebuchet" remote="github" revision="ics-plus" />
 
-  <project path="vendor/cm" name="GenetICS/vendor_cm" revision="ics-plus" />
+  <project path="vendor/cm" name="GenetICS/vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="GenetICS/vendor_google" remote="github" revision="ics-plus" />
   <project path="kernel/lge/msm" name="GenetICS/lge_kernel_msm7x27" remote="github" revision="ics-plus" />
   <project path="device/lge/p500" name="GenetICS/device_lge_p500" remote="github" revision="ics-plus" />
