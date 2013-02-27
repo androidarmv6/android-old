@@ -283,7 +283,7 @@
   <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
-  <!--<project path="kernel/lge/msm" name="androidarmv6/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-10.1" />
+  <!--<project path="kernel/lge/msm" name="androidarmv6/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-10.1" />-->
   <!--<project path="kernel/lge/msm" name="GenetICS/lge_kernel_msm7x27" remote="github" revision="ics-plus" />-->
   <!--<project path="device/lge/p500" name="GenetICS/device_lge_p500" remote="github" revision="ics-plus" />-->
   <!--<project path="vendor/lge/p500" name="GenetICS/vendor_lge_p500" remote="github" revision="ics-plus" />-->
