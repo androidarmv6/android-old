@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="server.cas-online.nl:8181" />
+           review="review.androidarmv6.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
