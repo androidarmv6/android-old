@@ -16,7 +16,7 @@ familiar with [Git and Repo](http://source.android.com/source/version-control.ht
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/XPerience-x8/android.git -b cm-11.0
+    repo init -u git://github.com/XPerience-x8/android_kk.git -b cm-11.0
 
 Then to sync up:
 
