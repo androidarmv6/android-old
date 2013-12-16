@@ -25,7 +25,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="androidarmv6/android" />
+  <project path="android" name="XPerience-x8/android_kk" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <!--  <project path="art" name="CyanogenMod/android_art" /> -->
