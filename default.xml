@@ -315,7 +315,7 @@
 <!-- fix me later --><project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" revision="02411a3ae32fccf72575766d6c47e9b2ed1bfcb3" />
 
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
-  <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <!--<project path="hardware/akm" name="platform/hardware/akm" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />-->
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
@@ -487,7 +487,7 @@
 
   <!--XPERIENCE STUFF-->
   
-  <project path="android/device/semc/shakira" name="XPerience-x8/android_device_semc_shakira_kk" />
-  <project path="android/device/semc/msm7x27-common" name="XPerience-x8/android_device_semc_msm7x27-common_kk" />
-  
+  <project path="device/semc/shakira" name="XPerience-x8/android_device_semc_shakira_kk" />
+  <project path="device/semc/msm7x27-common" name="XPerience-x8/android_device_semc_msm7x27-common_kk" />
+  <project path="hardware/akm" name="XPerience-x8/android_hardware_akm" revision="cm-11.0"
 </manifest>
